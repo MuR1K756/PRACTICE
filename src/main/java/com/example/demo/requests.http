@@ -1,0 +1,14 @@
+### Добавить новое блюдо
+POST http://localhost:8080/api/dishes
+Content-Type: application/json
+
+{
+  "name": "Паэлья",
+  "description": "Традиционная испанская паэлья с морепродуктами",
+  "category": "MAIN",
+  "price": 15.50,
+  "isActive": true
+}
+
+### Получить список всех блюд
+GET http://localhost:8080/api/dishes
